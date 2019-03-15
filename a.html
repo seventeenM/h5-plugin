@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/style_1010hjs_ls.css" rel="stylesheet" type="text/css">
+    <link href="./css/jq-sd-bar.css?v1.0.2" rel="stylesheet" type="text/css">
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    
+		<!-- <div id="mengcheng-alert" class="c-mengcheng-alert">
+				<div class="c-alert">
+                    <div id="mengcheng-alert-content">
+                        <div class="title">
+                            <p >名师公开课</p>
+                            <p class="title">自考历年真题知识点解析</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">按钮</button>
+                            <button class="btn">按钮</button>
+                        </div>
+                    </div>
+					<image class="singListen" src="picture/singListen.png"></image>
+					<image class="fire" src="picture/fire.png"></image>
+					<div class="circle_orange"></div>
+                    <div class="circle_purple"></div>
+                    <div class="circle_white"></div>
+                    <div class="purple_small"></div>
+                    <div class="purple_big"></div>
+                    <div class="orange_op"></div>
+                    <div class="circle_error">
+                        <div class="black"></div>
+                    </div>
+				</div>
+        </div> -->
+        <!-- <input placeholder=""/> -->
+        <!-- <script src="./js/jq-sd-bar.js"></script> -->
+        <script src="./js/alert.js"></script>
+        <script>
+
+          var aa = $.alert({
+             title: '名师公开课',
+             description: '自考历年真题知识点解析',
+             theme: 'pink',  //主题颜色 blue yellow pink
+             btnContent: '登录观看',
+             className: '', 
+             style: '',
+             clickClose(...args) {
+                console.log(args);
+             }
+          })
+          console.log(aa)
+          
+        </script>
+</body>
+</html>
